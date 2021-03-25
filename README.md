@@ -1,10 +1,27 @@
-# Getting Started with Create React App
+# Covidsweeper
+[![CI](https://github.com/amegias/covidsweeper-react/actions/workflows/ci.yml/badge.svg)](https://github.com/amegias/covidsweeper-react/actions/workflows/ci.yml)
 
+An immitation of the popular Minesweeper just for practicing with React, Typescript and other related tools.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to play
+
+https://amegias.github.io/covidsweeper-react
+
+The game will start after the first tap on any cell. The goal is to open all the cells which are not 🦠 and timer will measure how fast you are. If you tap on 🦠, the game will be over.
+
+Switch the `vaccine` mode tapping on the `Vaccine enabled/disabled` button or pressing `F` key in order to enable/disable the way to mark the cells with 💉. It will be useful to know where the 🦠 is.
+There are three levels available with different dimensions and number of 🦠.
+
+![](./doc/images/screenshot.png)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn`
+
+Installs the project dependencies.
 
 ### `yarn start`
 
@@ -19,6 +36,18 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn lint`
+
+Analises the project in order to find issues in the code.
+
+### `yarn prettier-check`
+
+Checks the code style.
+
+### `yarn prettier-write`
+
+Checks the code style and tries to fix the issues found.
+
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\
@@ -28,6 +57,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## `yarn deploy`
+
+Deploys a new build in GitHub Pages.
 
 ### `yarn eject`
 
