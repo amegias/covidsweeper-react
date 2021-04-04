@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/covidsweeper-react/static/css/main.b6a5c8e9.chunk.css",
-    "main.js": "/covidsweeper-react/static/js/main.496ade5d.chunk.js",
-    "main.js.map": "/covidsweeper-react/static/js/main.496ade5d.chunk.js.map",
+    "main.js": "/covidsweeper-react/static/js/main.ae0f0cf6.chunk.js",
+    "main.js.map": "/covidsweeper-react/static/js/main.ae0f0cf6.chunk.js.map",
     "runtime-main.js": "/covidsweeper-react/static/js/runtime-main.359d3971.js",
     "runtime-main.js.map": "/covidsweeper-react/static/js/runtime-main.359d3971.js.map",
     "static/js/2.ae8bf12d.chunk.js": "/covidsweeper-react/static/js/2.ae8bf12d.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.359d3971.js",
     "static/js/2.ae8bf12d.chunk.js",
     "static/css/main.b6a5c8e9.chunk.css",
-    "static/js/main.496ade5d.chunk.js"
+    "static/js/main.ae0f0cf6.chunk.js"
   ]
 }
